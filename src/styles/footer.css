@@ -1,0 +1,57 @@
+footer {
+	width: 100%;
+	color: white;
+	background: linear-gradient(180deg, rgb(69, 116, 209) 0%, rgb(112, 143, 207) 60%, rgb(224, 200, 243) 100%);
+	display: flex;
+	justify-content: center;
+}
+
+.footer-wrapper {
+	width: 100%;
+	max-width: 1000px;
+	margin: 2rem 3rem;
+
+	display: flex;
+	justify-content: center;
+}
+
+.contact-cont {
+	flex: 1;
+}
+
+.contact-cont > h2 {
+	margin-top: 0;
+	font-size: 2rem;
+	color: white;
+}
+
+.contact-cont > p,
+.address-cont {
+	margin-bottom: 1.5rem;
+}
+
+.phone-cont,
+.email-cont {
+	margin-bottom: 10px;
+
+	display: flex;
+	align-items: center;
+}
+
+.phone-cont > img,
+.email-cont > img {
+	margin-right: 14px;
+}
+
+.icon-cont {
+	margin-top: 2rem;
+
+	align-self: flex-end;
+	display: flex;
+	align-items: center;
+	column-gap: 12px;
+}
+
+.footer-pic > img {
+	max-width: 320px;
+}
